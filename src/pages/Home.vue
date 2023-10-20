@@ -33,14 +33,14 @@
         </div>
       </div>
 
-      <div class="horline" style="bottom:100px; "></div>
+      <div class="horline" style="bottom:100px;"></div>
       <div class="footer animate slide delay-12">
           <a href="https://github.com/Xahau" role="button" class="primary btnsm">Github <Github :size="18" :stroke-width="2.5" /></a>
           <!-- <a href="#" role="button" class="primary btnsm">Blog <Newspaper :size="18" :stroke-width="2.5" /></a> -->
           <a href="https://x.com/XahauNetwork" role="button" class="primary btnsm"><Twitter :size="18" :stroke-width="2.5" /> / <X :size="18" :stroke-width="2.5" /></a>
           <a href="https://github.com/Xahau/Graphics" role="button" class="primary btnsm">Download Brand Assets <DownloadCloud :size="18" :stroke-width="2.5" /></a>
 
-          <small>© Xahau 2023</small>
+          <!-- <small>Who...?</small> -->
       </div>
     </div>
   </div>
