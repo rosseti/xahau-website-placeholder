@@ -25,7 +25,7 @@
         <div class="devbox animate fade delay-10">
             <hgroup>
                 <h4>Developer?</h4>
-                <p>Hooks are the native smart contracts on the Xahau network. <br />Checkout our docs and tools.</p>
+                <p><strong style="display: inline-block; margin-bottom: 5px; color: var(--yellow);">Hooks are the native smart contracts on the Xahau network.</strong><br />Checkout our docs and tools.</p>
             </hgroup>
             <a href="https://hooks-builder.xrpl.org" role="button" class="primary btnsm">Hooks builder <Hammer :size="20" :stroke-width="2.5" /></a>
             <a href="https://xrpl-hooks.readme.io" role="button" class="primary btnsm">Hooks docs <FileCode :size="20" :stroke-width="2.5" /></a>
