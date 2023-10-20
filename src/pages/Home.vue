@@ -1,6 +1,11 @@
 <template>
   <div class="vertline" style="left:10%; "></div>
   <div class="horline" style="top:51%"></div>
+
+  <article class="alert error">
+    <b>Xahau mainnet is not live yet.</b> <span>Xahau testnet is availabe on <a href="https://xahau-test.net">https://xahau-test.net</a></span>
+  </article>
+
   <div class="container home" data-theme="dark">
     <div class="grid">
 
@@ -20,7 +25,7 @@
         <div class="devbox animate fade delay-10">
             <hgroup>
                 <h4>Developer?</h4>
-                <p>Checkout our docs and tools</p>
+                <p>Hooks are the native smart contracts on the Xahau network. <br />Checkout our docs and tools.</p>
             </hgroup>
             <a href="https://hooks-builder.xrpl.org" role="button" class="primary btnsm">Hooks builder <Hammer :size="20" :stroke-width="2.5" /></a>
             <a href="https://xrpl-hooks.readme.io" role="button" class="primary btnsm">Hooks docs <FileCode :size="20" :stroke-width="2.5" /></a>
@@ -146,6 +151,19 @@ canvas {
 //
 */
 
+article.alert {
+  margin:0;
+  padding:0.5rem;
+  font-size:0.7rem;
+  border-radius: 0;
+  text-align: center;
+  position: absolute;
+  left:0;
+  width:100%;
+  z-index: 11;
+  a { color:#fff; }
+}
+
 div.grid {
   display: grid;
   grid-template-rows:200px 4fr 4fr 100px;
@@ -160,7 +178,6 @@ div.grid {
     padding:0 0 2rem 0;
     justify-items: start;
     align-content: start;
-
     h1 {
       font-size:3rem;
       line-height:2.9rem;
@@ -175,12 +192,11 @@ div.grid {
     justify-items: end;
     align-content: start;
     > div.devbox {
-      max-width: 50%;
       padding:1rem;
       background:rgba(#909090,0.25);
       border-radius: 0.3rem;
       margin-bottom:3rem;
-      p {color:#fff;}
+      p {color:#fff; font-size:0.9rem; }
 
       a { margin:0 0.5rem 0 0; background:var(--purple-light); border-color:var(--purple-light); color:var(--purple); }
     }
