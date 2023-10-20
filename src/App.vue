@@ -12,7 +12,7 @@
 </template>
 
 <style lang="scss">
-  @import "/css/pico.slim.css";
+  @import "/css/pico.css";
   @import "/css/animate.css";
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
   :root {
@@ -44,6 +44,10 @@
     canvas {
       opacity:0.5;
     }
+    article.alert {
+      font-size:0.9rem !important;
+      position: relative !important;
+    }
     .btnsm {
       // width:100%; display: block;
       font-size:0.9rem;
@@ -52,7 +56,7 @@
 
     div.grid {
       height:auto !important;
-      grid-template-rows:150px 4fr 4fr 100px !important;
+      grid-template-rows:150px 3fr 3fr 100px !important;
       // grid-template-rows: auto auto auto auto !important;
     }
     div.grid div.header {
@@ -72,7 +76,8 @@
     }
     div.grid .developers {
       div.devbox {
-        width:100%;
+        width:100%; display: grid;
+        text-align: center;
       }
     }
     div.grid div.footer {
@@ -100,6 +105,9 @@
     .btnsm {
       font-size:0.7rem;
       padding:0.3rem 0.6rem;
+    }
+    .devbox {
+      max-width: 50%;
     }
   }
   // .btnsm {
