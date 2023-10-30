@@ -2,10 +2,6 @@
   <div class="vertline" style="left:10%; "></div>
   <div class="horline" style="top:51%"></div>
 
-  <article class="alert error">
-    <b>Xahau mainnet is not live yet.</b> <span>Xahau testnet is availabe on <a href="https://xahau-test.net">https://xahau-test.net</a></span>
-  </article>
-
   <div class="container home" data-theme="dark">
     <div class="grid">
 
