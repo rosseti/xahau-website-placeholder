@@ -11,9 +11,12 @@
 
       <div class="main animate fade delay-8">
           <h1><span>The <b>Smart Contract Sidechain</b></span> <span>for the XRPL Ecosystem <small>- Xahau Launch Alliance, 2023</small></span></h1>
-          <a href="Xahau-Whitepaper.pdf" role="button" target="_blank" class="contrast whitepaper">
-            Read the whitepaper&nbsp; <FileDigit :size="28" :stroke-width="2.5" />
+          <a href="https://docs.xahau.network" role="button" target="_blank" class="contrast whitepaper">
+            Xahau documentation&nbsp; <FileCode :size="28" :stroke-width="2.5" />
           </a>
+          <!-- <a href="Xahau-Whitepaper.pdf" role="button" target="_blank" class="contrast whitepaper">
+            Read the whitepaper&nbsp; <FileDigit :size="28" :stroke-width="2.5" />
+          </a> -->
       </div>
 
       <div class="developers">
@@ -35,6 +38,8 @@
           <!-- <a href="#" role="button" class="primary btnsm">Blog <Newspaper :size="18" :stroke-width="2.5" /></a> -->
           <a href="https://x.com/XahauNetwork" role="button" class="primary btnsm"><Twitter :size="18" :stroke-width="2.5" /> / <X :size="18" :stroke-width="2.5" /></a>
           <a href="https://github.com/Xahau/Graphics" role="button" class="primary btnsm">Download Brand Assets <DownloadCloud :size="18" :stroke-width="2.5" /></a>
+          <a href="Xahau-Whitepaper.pdf" role="button" class="primary btnsm">Download Witepaper <FileDigit :size="18" :stroke-width="2.5" /></a>
+
 
           <!-- <small>Who...?</small> -->
       </div>
