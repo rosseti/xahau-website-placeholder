@@ -10,7 +10,7 @@
       </div>
 
       <div class="main animate fade delay-8">
-          <h1><span>The <b>Smart Contract Sidechain</b></span> <span>for the XRPL Ecosystem <small>- Xahau Launch Alliance, 2023</small></span></h1>
+          <h1><span>The <b>Smarter Blockchain</b></span> <span>with Account-Based Programmability <small>- Xahau Launch Alliance, 2023</small></span></h1>
           <a href="https://docs.xahau.network" role="button" target="_blank" class="contrast whitepaper">
             Xahau documentation&nbsp; <FileCode :size="28" :stroke-width="2.5" />
           </a>
