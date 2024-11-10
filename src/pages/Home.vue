@@ -38,7 +38,7 @@
           <!-- <a href="#" role="button" class="primary btnsm">Blog <Newspaper :size="18" :stroke-width="2.5" /></a> -->
           <a href="https://x.com/XahauNetwork" role="button" class="primary btnsm"><Twitter :size="18" :stroke-width="2.5" /> / <X :size="18" :stroke-width="2.5" /></a>
           <a href="https://github.com/Xahau/Graphics" role="button" class="primary btnsm">Download Brand Assets <DownloadCloud :size="18" :stroke-width="2.5" /></a>
-          <a href="Xahau-Whitepaper.pdf" role="button" class="primary btnsm">Download Witepaper <FileDigit :size="18" :stroke-width="2.5" /></a>
+          <a href="Xahau-Whitepaper.pdf" role="button" class="primary btnsm">Download Whitepaper <FileDigit :size="18" :stroke-width="2.5" /></a>
 
 
           <!-- <small>Who...?</small> -->
